@@ -1,7 +1,7 @@
-import {combineReducer} from 'redux';
+import {combineReducers} from 'redux';
 import people from './people';
 
-const rootReducer = combineReducer({
+const rootReducer = combineReducers({
     people,
 });
 
